@@ -11,7 +11,7 @@ const Meta = () => {
 
 	useEffect(() => {
 		// Set title
-		setTitle(settings.username + " Start Page")
+		setTitle("Welcome")
 
 		// Return if there is no icon
 		if (!settings.fetch.image) return

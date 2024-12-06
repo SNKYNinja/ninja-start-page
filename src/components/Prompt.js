@@ -9,9 +9,9 @@ const Prompt = ({ command, showSymbol = true }) => {
 
 	return (
 		<span className="flex cursor-default">
-			<span className={`text-${promptSettings.userColor}`}>{lower_username}</span>
+			<span className={`text-${promptSettings.userColor}`}>ninja</span>
 			<span className={`text-${promptSettings.atColor}`}>@</span>
-			<span className={`text-${promptSettings.hostColor}`}>{browserData.browserLower}</span>
+			<span className={`text-${promptSettings.hostColor}`}>workspace</span>
 			{showSymbol && (
 				<span className={`text-${promptSettings.promptColor} ml-2`}>
 					{" "}
